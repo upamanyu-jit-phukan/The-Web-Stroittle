@@ -1,69 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.firstpg{
-    background-image: url('garbagebg.jpeg');
-    background-size: cover;
-    box-shadow: gray;
-    width: 100vw;
-    display: flex;
-    height: 100vh;
-    justify-content: space-between;
-    padding: 40vh 9vw;
-    font-size: 41px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-decoration: none;
-  }
-
-.rightdown{
-    font-size: 10px;
-}
-
-
-
-
-
-  footer{
-    background-color: rgba(6, 58, 23, 0.915);
-    color: white;
-}
-
-
-#nav{
-   
-    height : 60px;
-    margin: 20px;
-    color: white;
-}
-
-#nav2{
-    
-    height : 60px;
-    margin: 20px;
-    color: white;
-}
-
-a{
-    margin-right: 270px; 
-    text-decoration: none;
-    color: white;
-}
-.left a{
-    color:white;
-}
-.rightup a{
-    color:white;
-}
-.rightdown a{
-    color:white;
-}
 
 .contain{
-    margin-top: 50px;
     height: 400px;
     width: 50%;
     
@@ -92,7 +28,6 @@ transition: transform 1s linear 0s;}.boxcontain1:hover{
     width: 100%;
     height: 360px;
     position: relative;
-    margin-left: 180px;
     
     
   
@@ -111,9 +46,7 @@ transition: transform 1s linear 0s;}.boxcontain1:hover{
     margin-left: 30px;
 }
 .re1{
-    margin-left: 240px;
-    height: 600px;
-    
+    margin-left: 20px;
 }
 .boxcontain2{
     width: 100%;
