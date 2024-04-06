@@ -203,8 +203,8 @@
               </div>
           </div></div>
       </div>
-    
-      <div class="slide-container swiper">
+
+      <div class="slide-container swiper" id="id101" >
         <div class="slide-content">
             <div class="card-wrapper swiper-wrapper">
                 <div class="card swiper-slide">
@@ -218,13 +218,16 @@
                     <div class="card-content">
                         <h2 class="name">Ajay Singh</h2>
                         <p class="description">Hello, I'm Ajay Singh, and I specialize in scrap metal recycling.  Whether you have surplus metal from construction projects, manufacturing processes, or simply household items, I provide efficient collection, sorting, and recycling solutions. </p>
-                        <button class="button" onclick="toggleDetails('details1')">View more</button>
-                        <div id="details1" class="details">
-                            <button class="closeBtn" onclick="toggleDetails('details1')"><b>X</b></button>
-                            <p> <h3>Hello, I'm Ajay Singh</h3> <br>Phone no. : 6677889900 <br> Rating : 4 out of 5 stars! <hr><br> I work in Bina Trading in Silchar. As a scrap dealer with 5 years of experience in the industry, I assist individuals and businesses in responsibly disposing of their metal waste while maximizing their returns.
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115947.64656125479!2d92.71584623679138!3d24.748707412350353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a3ee03238cb%3A0xf6884c4fd5073394!2sBina%20Trading!5e0!3m2!1sen!2sin!4v1712252434366!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </p>
-                        </div>
+                        <!-- <button onclick="displayText('textField1')">View more!</button> -->
+                    
+                        
+    <div id="textField1" class="textField1">
+        <button onclick="displayText('textField1')">View more!</button>
+        <p> <h3>Hello, I'm Ajay Singh</h3> <br>Phone no. : 6677889900 <br> Rating : 4 out of 5 stars! <hr><br> I work in Bina Trading in Silchar. As a scrap dealer with 5 years of experience in the industry, I assist individuals and businesses in responsibly disposing of their metal waste while maximizing their returns.
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115947.64656125479!2d92.71584623679138!3d24.748707412350353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a3ee03238cb%3A0xf6884c4fd5073394!2sBina%20Trading!5e0!3m2!1sen!2sin!4v1712252434366!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        
+    </div>
                     </div>
                 </div>
   
@@ -240,13 +243,14 @@
                         <h2 class="name">Gaurav Ahuja</h2>
                         <p class="description">Hello, I'm Gaurav Ahuja, your local plastic scrap dealer. From discarded packaging materials to industrial plastic scraps, I offer comprehensive collection and recycling services.</p>
                         
-                        <button class="button" onclick="toggleDetails('details2')">View more</button>
-                        <div id="details2" class="details">
-                            <button class="closeBtn" onclick="toggleDetails('details2')"><b>X</b></button>
-                            <p> <h3>Hello, I'm Gaurav Ahuja</h3> <br>Phone no. : 6447859952 <br> Rating : 3 out of 5 stars!<hr><br> I work in M/S Sumangal Singh located in Silchar. With 3 years of experience in the recycling industry, I'm dedicated to providing sustainable solutions for plastic waste management. 
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115908.20491062534!2d92.64771364335937!3d24.790953599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4b269bd5b411%3A0xe06b167ad1c08fcd!2sM%2FS%20SUMANGAL%20SINGH!5e0!3m2!1sen!2sin!4v1712253476915!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </p>
-                            </div>
+                       
+
+    <div id="textField2" style="display: none;">
+        <button onclick="displayText('textField2')">View more!</button>
+        <p> <h3>Hello, I'm Gaurav Ahuja</h3> <br>Phone no. : 6447859952 <br> Rating : 3 out of 5 stars!<hr><br> I work in M/S Sumangal Singh located in Silchar. With 3 years of experience in the recycling industry, I'm dedicated to providing sustainable solutions for plastic waste management. 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115908.20491062534!2d92.64771364335937!3d24.790953599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4b269bd5b411%3A0xe06b167ad1c08fcd!2sM%2FS%20SUMANGAL%20SINGH!5e0!3m2!1sen!2sin!4v1712253476915!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+    </div>
       
                         </div>
                     </div>
@@ -341,6 +345,9 @@
             <div class="swiper-pagination"></div>
       
         </div>
+    
+
+
       
       </body>
     
@@ -367,4 +374,5 @@
         <script src="swiper-bundle.min.js"></script>
       
         <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       </html>
