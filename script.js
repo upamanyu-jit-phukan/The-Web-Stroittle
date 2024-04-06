@@ -26,8 +26,20 @@ var swiper = new Swiper(".slide-content", {
     }
   });
 
-  function toggleDetails(id){
-    var details = document.getElementById(id);
-    details.classList.toggle("show");
+  // function toggleDetails(id){
+  //   var details = document.getElementById(id);
+  //   details.classList.toggle("show");
+  // }
+  function displayText(id) {
+    var text = document.getElementById(id);
+    text.style.display = "block";
   }
+  
+  const dialog = document.getElementById("myDialog");
+  function showDialog() { 
+    dialog.show(); 
+  } 
+  function closeDialog() { 
+    dialog.close(); 
+  } 
 
