@@ -5,9 +5,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.slide-container{
-    margin-top: 100px;
-    min-height: 100vh;
+.slide-content{
+     min-height: 100vh;   
     display:flex;
     align-items: center;
     justify-content: center;
@@ -441,15 +440,32 @@ iframe{
 .details.show{
     display: block;
 }
-
-.closeBtn{
+.textField1.active .overlay{
+    display:block;
+}
+/* .close-btn{
     position: absolute;
-    top:5px; right:5px;
-    background: transparent;
-    border:none;
-    color:#195c3c;
+    top:20px; right:20px; width:30px;
+    height:30px;
+    background: #222;
+    
+    color:#fff;
+    
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+} */
+
+.close{
+    position: absolute;
+    top:-15px;
+    right:-15px;
+    background: #fff;
+    height:20px; width:20px;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 20px;
 }
 footer{
     display:flex;
@@ -513,6 +529,13 @@ footer p{
     margin-bottom: 10px;
     font-size: 1.1em;
 }
+/* .slide-container{
+    min-height: 100vh;  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+} */
 
 @media screen and (max-width:768px) {
     .swiper-navBtn{
